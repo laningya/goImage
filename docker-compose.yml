@@ -1,8 +1,8 @@
 version: '3.3'
 services:
   app:
-    image: image  # 使用你构建好的镜像名称
+    image: image  
     ports:
-      - "18080:18080"  # 假设你的应用监听 8080 端口
+      - "18080:18080"  
     volumes:
-      - ./config.json:/app/config.json  # 映射宿主机上的 config.json 文件到容器内
+      - ./config.json:/app/config.json  
